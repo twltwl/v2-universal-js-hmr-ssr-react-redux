@@ -50,12 +50,12 @@ First install the dependencies, in the root directory of this project run.
 ## 🤖 Running
 For **Development** run `npm run development`
 
-This will start a development server on `localhost:8080` that utilizes hot module
+This will start a development server on `localhost:4711` that utilizes hot module
 reloading for both React components and redux reducers.
 
 For **Production** run `npm run build && npm run production`.
 
-This will build all your assets and write them to a `/build` file in the root directory of this project. The script will then start up a express server on `localhost:8080` that will utilize server side rendering and route based code splitting.
+This will build all your assets and write them to a `/build` file in the root directory of this project. The script will then start up a express server on `localhost:4711` that will utilize server side rendering and route based code splitting.
 
 ![hmr-ssr](https://cloud.githubusercontent.com/assets/2454928/18360529/39573fe2-75b3-11e6-8a06-75bc2664e98d.gif)
 

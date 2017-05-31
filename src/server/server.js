@@ -46,7 +46,7 @@ app.use(function(err, req, res, next) {
 
 const server = http.createServer(app);
 
-server.listen(8080, function() {
+server.listen(process.env.PORT || 4711, function() {
    const address = server.address();
-   console.log(`${'>>>'.cyan} ${'Listening on:'.rainbow} ${'localhost::'.trap.magenta}${`${address.port}`.green}`);
+   console.log(`${'>>>'.cyan} ${'Listening on:'.rainbow} ${'localhost::'.rainbow}${`${address.port}`.green}`);
  });
